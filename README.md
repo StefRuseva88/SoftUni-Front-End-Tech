@@ -1,2 +1,2 @@
 # SoftUni-Front-End-Auto
-My Exam projects for Front-end Test Automation @ SoftUni 
+My Exam projects for QA Front-end Test Automation @ SoftUni 
