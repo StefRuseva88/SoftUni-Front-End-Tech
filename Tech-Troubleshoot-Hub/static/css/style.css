@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body {
+    font-family: 'ADLaM Display', cursive;
+    place-items: center;
+    background-image: url(../img/zero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0; 
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    scale: 0.9;
+    overflow: hidden;
+}
+
+#wrapper {
+    justify-content: center;
+    margin: 2.35rem 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#header {
+    margin: 0;
+    background-color: rgba(17, 16, 16, 0.425);
+    border-radius: 10px;
+    padding: 0px 150px;
+}
+#header>h1 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    background:linear-gradient(180deg, rgb(88, 156, 245) 17%, rgb(228, 161, 235) 48%, rgb(118, 208, 214) 78%);
+    text-shadow: 3px 3px #1b1a1a49;
+    color: transparent;
+    background-clip: text;
+-webkit-background-clip: text;
+}
+
+.heading-container {
+    margin: 0px auto 4px 0;
+    height:1rem;
+    display: flex;
+    top: 0%;
+    left: 50%;
+    text-align: center;
+}
+
+.info {
+    justify-items: legacy;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    margin-top: 10rem;
+    
+}
+
+.info>h1 {
+    font-size: 1.5rem;
+    margin: -10rem 0 0px;
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0;
+    letter-spacing: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(9, 9, 9);
+}
+
+.container {
+    width: 100vw;
+    height: 19vh;
+    display: flex;
+    border-radius: 5px;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction: column;
+    background-color: rgba(231, 228, 224, 0.637);
+    margin-bottom: 10px;
+    
+    
+}
+ul {
+    overflow: auto;
+    
+}
+
+
+.container > h1 {
+  color: rgb(0, 0, 0);
+}
+.container-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.container-text> form > input,select {
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 5px;
+
+}
+
+.container-text> form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+
+}
+
+.container-text> form > label {
+    color: rgb(15, 15, 15);
+ 
+}
+#complete-order {
+    border-radius: 5px;
+    width: 40vw;
+    height: 12vh;
+    margin:auto;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    opacity: 0.95;
+}
+#complete-order img {
+    height: 150px;
+    width: 150px;
+    margin-top: -30px;
+    visibility:hidden;
+}
+
+label {
+    display: block;
+    padding-right: 10px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #1A2250;
+}
+
+#add-btn {
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+    background-color: rgb(70, 203, 236);
+    font-size:large;
+    font-weight: 600;
+    margin-left: 10px;
+    color: white;
+}
+
+#add-btn:disabled {
+    background-color: red;
+    color: white;
+    cursor: not-allowed;
+  }
+  
+
+#add-btn:hover {
+    background-color: rgb(173, 160, 248);
+    color: black;
+}
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: -25px;   
+}
+
+li > article {
+display: flex;
+
+}
+
+article> h3,p {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.1rem 0.6rem;
+    font-family: 'Alkalami', serif;
+   
+}
+
+.edit-btn, .continue-btn, .resolve-btn, .clear-btn {
+    margin: 2.6rem 1rem ;
+    width: 7.5rem;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 252);
+    font-size:large;
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+.edit-btn:hover, .continue-btn:hover, .resolve-btn:hover, .clear-btn:hover {
+    background-color: rgb(173, 160, 248);
+}
+.problem-content p {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(3, 3, 3);
+    font-size: 20px;
+}
+
+#complete-order p {
+    color: white;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./static/css/style.css" />
+    <title>Tech Troubleshoot Hub</title>
+  </head>
+
+  <body>
+    <section id="header">
+      <h1>Tech Troubleshoot Hub</h1>
+      <div class="heading-container"></div>
+    </section>
+
+    <div id="wrapper">
+      <section id="add-problem">
+        <div class="container">
+          <h1>Problem</h1>
+          <div class="container-text">
+            <form action="">
+              <label for="employee">Employee:</label>
+              <input type="text" id="employee" name="employee" />
+
+              <label for="category">Category:</label>
+              <select name="category" id="category">
+                <option value=""></option>
+                <option value="Software">Software</option>
+                <option value="Hardware">Hardware</option>
+                <option value="Network">Network</option>
+              </select>
+
+              <label for="urgency">Urgency:</label>
+              <select name="urgency" id="urgency">
+                <option value=""></option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+              </select>
+
+              <label for="team">Assigned Team:</label>
+              <select name="team" id="team">
+                <option value=""></option>
+                <option value="Software Solutions Team">
+                  Software Solutions Team
+                </option>
+                <option value="Hardware Support Division">
+                  Hardware Support Division
+                </option>
+                <option value="Network Operations Center">
+                  Network Operations Center
+                </option>
+              </select>
+
+              <label for="description">Description:</label>
+              <input type="text" id="description" name="description" />
+              <button id="add-btn" type="submit">Add</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="preview">
+        <div class="preview-container">
+          <div class="container">
+            <h1>Preview</h1>
+            <ul class="preview-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="pending">
+        <div class="pending-container">
+          <div class="container">
+            <h1>Pending</h1>
+            <ul class="pending-list"></ul>
+          </div>
+        </div>
+      </section>
+      <section id="resolved">
+        <div class="resolved-container">
+          <div class="container">
+            <h1>Resolved</h1>
+            <ul class="resolved-list"></ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
