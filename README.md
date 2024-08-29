@@ -3,4 +3,4 @@
 [![QUnit](https://img.shields.io/badge/tested%20with-QUnit-9C4CB4.svg)](https://qunitjs.com/)
 [![Playwright](https://img.shields.io/badge/tested%20with-Playwright-6E40C9.svg)](https://playwright.dev/)
 
-My Exam projects for QA Front-end Test Automation @ SoftUni 
+## My projects for QA Front-end Test Automation Exams @ SoftUni 
