@@ -55,6 +55,21 @@ Ensure you have the following installed:
 - npm
 - A modern web browser (e.g., Chrome, Firefox)
 
+## Usage
+
+### Running the DOM Manipulation Project
+Open `index.html` in your browser to see the DOM manipulation in action.
+
+### Running Playwright Tests
+Execute the Playwright test suite with the following command:
+
+```
+npx playwright test
+```
+
+Running QUnit Tests
+Simply open the `test/index.html` file in your browser to run the QUnit tests.
+
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
