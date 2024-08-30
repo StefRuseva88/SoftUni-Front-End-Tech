@@ -53,7 +53,7 @@ Ensure you have the following installed:
 
 - Node.js
 - npm
-- A modern web browser (e.g., Chrome, Firefox)
+- A web browser (e.g., Chrome, Firefox)
 
 ## Usage
 
