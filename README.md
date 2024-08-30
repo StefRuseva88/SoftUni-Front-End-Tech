@@ -41,7 +41,7 @@ This project includes a suite of automated tests using Playwright, a powerful en
 ## QUnit Tests
 
 ### Description
-In this project, I have used QUnit, a robust JavaScript unit testing framework, to write and execute unit tests. The goal is to ensure that individual units of code (such as functions) work as expected.
+In this project, I have used QUnit, a JavaScript unit testing framework, to write and execute unit tests. The goal is to ensure that individual units of code (such as functions) work as expected.
 
 - Test Suites: Organize tests into suites for modular testing.
 - Assertions: Utilize a variety of assertions to validate code functionality.
@@ -69,7 +69,7 @@ npx playwright test
 ```
 
 Running QUnit Tests
-Simply open the `test/index.html` file in your browser to run the QUnit tests.
+Simply open the `test/index.html` file in your browser to run the tests.
 
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
