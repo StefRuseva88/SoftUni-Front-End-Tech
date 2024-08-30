@@ -38,5 +38,13 @@ This project includes a suite of automated tests using Playwright, a powerful en
 - Cross-browser Testing: Ensure that your application behaves consistently across Chrome, Firefox, and WebKit.
 - Headless Testing: Execute tests in a headless environment for faster and more efficient test runs.
 - Advanced Test Scenarios: Cover complex user interactions, navigation, and input validation.
+  
+## QUnit Tests
 
+### Description
+In this project, I have used QUnit, a robust JavaScript unit testing framework, to write and execute unit tests. The goal is to ensure that individual units of code (such as functions) work as expected.
+
+- Test Suites: Organize tests into suites for modular testing.
+- Assertions: Utilize a variety of assertions to validate code functionality.
+- Test Coverage: Achieve high test coverage by thoroughly testing all critical code paths.
 
