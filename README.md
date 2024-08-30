@@ -30,6 +30,13 @@ This project demonstrates my proficiency in **Document Object Model (DOM) Manipu
 - **Event Handling:** Manage user interactions through events such as clicks, mouse movements, and keyboard inputs.
 - **Real-time Updates:** Reflect changes on the webpage without reloading, enhancing the user experience.
 
+## Playwright Tests
 
+### Description
+This project includes a suite of automated tests using Playwright, a powerful end-to-end testing framework. The tests are designed to validate the functionality and performance of web applications across different browsers.
+
+- Cross-browser Testing: Ensure that your application behaves consistently across Chrome, Firefox, and WebKit.
+- Headless Testing: Execute tests in a headless environment for faster and more efficient test runs.
+- Advanced Test Scenarios: Cover complex user interactions, navigation, and input validation.
 
 
