@@ -48,6 +48,14 @@ In this project, I have used QUnit, a robust JavaScript unit testing framework, 
 - Assertions: Utilize a variety of assertions to validate code functionality.
 - Test Coverage: Achieve high test coverage by thoroughly testing all critical code paths.
 
+## Getting Started
+### Prerequisites
+Ensure you have the following installed:
+
+- Node.js
+- npm
+- A modern web browser (e.g., Chrome, Firefox)
+
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
