@@ -48,12 +48,13 @@ In this project, I have used QUnit, a robust JavaScript unit testing framework, 
 - Test Coverage: Achieve high test coverage by thoroughly testing all critical code paths.
 
 ## Getting Started
+
 ### Prerequisites
 Ensure you have the following installed:
 
-- Node.js
-- npm
-- A web browser (e.g., Chrome, Firefox)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+- A web browser (e.g., [Chrome](https://www.google.com/chrome/), [Firefox](https://www.mozilla.org/firefox/))
 
 ## Usage
 
