@@ -69,7 +69,7 @@ Execute the Playwright test suite with the following command:
 npx playwright test
 ```
 
-Running QUnit Tests
+### Running QUnit Tests
 Simply open the `test/index.html` file in your browser to run the tests.
 
 ## Contributing
