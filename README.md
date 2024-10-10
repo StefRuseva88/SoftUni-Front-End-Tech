@@ -10,14 +10,14 @@ Welcome to the repository for my exam projects! This collection showcases my ski
 ---
 
 ## Table of Contents
-1. [DOM Manipulation](#dom-manipulation)
-2. [Playwright Tests](#playwright-tests)
-3. [QUnit Tests](#qunit-tests)
-4. [Getting Started](#getting-started)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
+- [DOM Manipulation](#dom-manipulation)
+- [Playwright Tests](#playwright-tests)
+- [QUnit Tests](#qunit-tests)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
